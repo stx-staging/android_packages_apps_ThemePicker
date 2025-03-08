@@ -32,7 +32,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.wallpaper.R;
+import com.android.themepicker.R;
 import com.android.wallpaper.util.ResourceUtils;
 
 import com.android.customization.model.CustomizationManager;

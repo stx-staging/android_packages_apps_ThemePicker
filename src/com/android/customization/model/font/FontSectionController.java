@@ -30,7 +30,7 @@ import com.android.customization.model.CustomizationOption;
 import com.android.customization.widget.OptionSelectorController;
 import com.android.customization.widget.OptionSelectorController.OptionSelectedListener;
 
-import com.android.wallpaper.R;
+import com.android.themepicker.R;
 import com.android.wallpaper.model.CustomizationSectionController;
 import com.android.wallpaper.util.LaunchUtils;
 
