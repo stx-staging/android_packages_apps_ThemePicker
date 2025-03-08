@@ -43,7 +43,7 @@ import androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate;
 
 import com.android.customization.model.CustomizationManager;
 import com.android.customization.model.CustomizationOption;
-import com.android.wallpaper.R;
+import com.android.themepicker.R;
 
 import java.util.HashSet;
 import java.util.List;
@@ -216,7 +216,7 @@ public class OptionSelectorController<T extends CustomizationOption<T>> {
                 Resources res = mContainer.getContext().getResources();
                 if (mCheckmarkStyle == CheckmarkStyle.CORNER && option.equals(mAppliedOption)) {
                     drawCheckmark(option, holder,
-                            res.getDrawable(R.drawable.check_circle_accent_24dp,
+                            res.getDrawable(com.android.wallpaper.R.drawable.check_circle_accent_24dp,
                                     mContainer.getContext().getTheme()),
                             Gravity.BOTTOM | Gravity.RIGHT,
                             res.getDimensionPixelSize(R.dimen.check_size),
